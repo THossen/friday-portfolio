@@ -3,7 +3,7 @@ const teamInfo = [
     id: 1,
     name: "Kennette James Basco",
     role: "Project Lead",
-    bio: "Passion for full-stack web development, React Framework, and programming.",
+    bio: "Passion for full-stack web development, ReactJS Framework, and programming.",
     imageUrl: "/MemberIcons/smile.png",
   },
   {
