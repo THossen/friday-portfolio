@@ -11,7 +11,7 @@ const teamInfo = [
     name: "Tanvir Hossen",
     role: "Co-Developer of Friday",
     bio: "Passion for web development and natural image processing applications in AI.",
-    imageUrl: "/MemberIcons/pfp.jpeg",
+    imageUrl: "/MemberIcons/TanvirPFP-transformed.jpeg",
   },
   {
     id: 3,
