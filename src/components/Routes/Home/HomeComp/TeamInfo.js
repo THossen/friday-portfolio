@@ -10,15 +10,15 @@ const teamInfo = [
     id: 2,
     name: "Tanvir Hossen",
     role: "Co-Developer of Friday",
-    bio: "Passion for web development, applications in AI, and competitive programming.",
+    bio: "Passion for web development and natural image processing applications in AI.",
     imageUrl: "/MemberIcons/pfp.jpeg",
   },
   {
     id: 3,
     name: "Ethan Medina",
     role: "Co-Developer of Friday",
-    bio: "Passion for web design, and programming",
-    imageUrl: "/MemberIcons/pfp.jpeg",
+    bio: "Passion for web development and interest in AI.",
+    imageUrl: "/MemberIcons/EthanPFP.jpg",
   },
   {
     id: 4,
