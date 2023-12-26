@@ -11,8 +11,8 @@ const TeamCard = () => {
         >
           <img className="w-full" src={imageUrl} alt={`Image of ${name}`} />
           <div className="px-4 py-2">
-            <div className="font-bold text-xl mb-2">{name}</div>
-            <p className="text-gray-700 text-base font-semibold">{role}</p>
+            <div className="font-bold text-xl">{name}</div>
+            <p className="text-gray-700 text-base font-semibold mb-2 border-b-2 border-b-tertiary">{role}</p>
             <p className="text-gray-700 text-base">{bio}</p>
           </div>
         </div>

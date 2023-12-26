@@ -4,7 +4,7 @@ const teamContacts = [
   {
     name: "Kennette James Basco",
     email: "kmaddela@nyit.edu",
-    emailSecond: "test@test.com",
+    emailSecond: "N/A",
     role: "Project Lead",
   },
   {
@@ -16,13 +16,13 @@ const teamContacts = [
   {
     name: "Ethan Medina",
     email: "emedin04@nyit.edu",
-    emailSecond: "test@test.com",
+    emailSecond: "N/A",
     role: "Co-Developer",
   },
   {
     name: "Jil Dhami",
     email: "jdhami@nyit.edu",
-    emailSecond: "test@test.com",
+    emailSecond: "jildhami@gmail.com",
     role: "Co-Developer",
   },
 ];
@@ -45,8 +45,8 @@ const ContactUs = () => {
             className="m-4 bg-white shadow-lg rounded-lg overflow-hidden w-80"
           >
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2 border-b-2">{member.name}</div>
-              <p className="text-gray-800 text-base">{member.role}</p>
+              <div className="font-bold text-xl">{member.name}</div>
+              <p className="text-gray-800 text-base border-b-2 border-b-tertiary">{member.role}</p>
               <div className="text-sm text-gray-600 mt-2 mb-1 underline">
                 Email:
               </div>
