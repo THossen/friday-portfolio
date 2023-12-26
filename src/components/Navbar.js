@@ -6,7 +6,7 @@ const Navbar = () => {
   const location = useLocation();
 
   const isActive = (path) => location.pathname === path;
-  const logoColorClass = isActive("/Home") ? "text-tertiary" : "text-white";
+  const logoColorClass = isActive("/Home") ? "text-tertiary" : "text-white hover:text-tertiary";
 
   return (
     <nav className="bg-secondary shadow-lg">
@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link
               to="/Home"
               className={`px-3 py-2 rounded-md text-2xl font-extrabold duration-200 ${
-                isActive("/Home") ? "text-tertiary" : "text-white"
+                isActive("/Home") ? "text-tertiary" : "text-white hover:text-tertiary"
               }`}
             >
               Team
@@ -27,7 +27,7 @@ const Navbar = () => {
             <Link
               to="/ShowCase"
               className={`px-3 py-2 rounded-md text-2xl font-extrabold duration-200 ${
-                isActive("/ShowCase") ? "text-tertiary" : "text-white"
+                isActive("/ShowCase") ? "text-tertiary" : "text-white hover:text-tertiary"
               }`}
             >
               Project
@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link
               to="/Contact"
               className={`px-3 py-2 rounded-md text-2xl font-extrabold duration-200 ${
-                isActive("/Contact") ? "text-tertiary" : "text-white"
+                isActive("/Contact") ? "text-tertiary" : "text-white hover:text-tertiary"
               }`}
             >
               Contact

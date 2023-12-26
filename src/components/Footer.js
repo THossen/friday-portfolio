@@ -6,7 +6,7 @@ const Footer = () => {
   const location = useLocation();
 
   const isActive = (path) => location.pathname === path;
-  const logoColorClass = isActive("/Home") ? "text-tertiary" : "text-white";
+  const logoColorClass = isActive("/Home") ? "text-tertiary" : "text-white hover:text-tertiary";
 
   return (
     <footer className="bg-secondary text-white p-4">
@@ -19,7 +19,7 @@ const Footer = () => {
             <Link
               to="/Contact"
               className={`px-3 py-2 text-2xl font-extrabold duration-200 ${
-                isActive("/Contact") ? "text-tertiary" : "text-white"
+                isActive("/Contact") ? "text-tertiary" : "text-white hover:text-tertiary"
               }`}
             >
               Contact

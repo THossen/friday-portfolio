@@ -16,7 +16,7 @@ const teamContacts = [
   {
     name: "Ethan Medina",
     email: "emedin04@nyit.edu",
-    emailSecond: "N/A",
+    emailSecond: "emedina96037@gmail.com",
     role: "Co-Developer",
   },
   {
