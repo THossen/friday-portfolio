@@ -4,7 +4,7 @@ const teamInfo = [
     name: "Kennette James Basco",
     role: "Project Lead",
     bio: "Passion for full-stack web development, React Framework, and programming.",
-    imageUrl: "/MemberIcons/pfp.jpeg",
+    imageUrl: "/MemberIcons/smile.png",
   },
   {
     id: 2,
@@ -24,8 +24,8 @@ const teamInfo = [
     id: 4,
     name: "Jil Dhami",
     role: "Co-Developer of Friday",
-    bio: "Passion for web design, and programming",
-    imageUrl: "/MemberIcons/pfp.jpeg",
+    bio: "Passion for web design and real estate.",
+    imageUrl: "/MemberIcons/JilPFP.png",
   },
 ];
 
