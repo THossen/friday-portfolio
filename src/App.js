@@ -11,6 +11,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
+        <Route path="/" element={<Home />} /> 
         <Route path="/Home" element={<Home />} />
         <Route path="/ShowCase" element={<ShowCase />} />
         <Route path="/Contact" element={<ContactUs />} />
@@ -21,3 +22,4 @@ function App() {
 }
 
 export default App;
+
