@@ -7,7 +7,7 @@ const TeamCard = () => {
       {teamInfo.map(({ id, name, role, bio, imageUrl }) => (
         <div
           key={id}
-          className="max-w-md rounded overflow-hidden shadow-lg m-4"
+          className="max-w-md rounded-lg overflow-hidden shadow-lg m-4"
         >
           <img className="w-full" src={imageUrl} alt={`Image of ${name}`} />
           <div className="px-4 py-2">

@@ -16,7 +16,7 @@ const Mission = () => {
         <div className="text-center">
           <Link
             to="/ShowCase"
-            className="inline-block bg-gradient-to-r from-tertiary via-green-300 to-tertiary text-white text-lg font-bold px-6 py-3 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            className="inline-block bg-gradient-to-r from-tertiary via-green-300 to-tertiary text-white text-lg font-bold px-6 py-3 rounded-3xl shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
           >
             Explore Features
           </Link>
