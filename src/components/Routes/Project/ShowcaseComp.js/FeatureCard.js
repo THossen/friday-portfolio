@@ -17,7 +17,6 @@ const FeatureCard = () => {
               <img
                 className="rounded overflow-hidden shadow-lg"
                 src={gifUrl}
-                alt={`GIF of ${title}`}
               />
             </div>
             <div className="w-full md:w-1/2 flex items-center bg-white rounded shadow-lg">
