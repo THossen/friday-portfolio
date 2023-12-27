@@ -34,9 +34,7 @@ const ContactUs = () => {
         <h1 className="text-4xl font-bold text-secondary mb-3">
           Contact Our Team
         </h1>
-        <p className="text-xl text-gray-700">
-          Reach out to us for inquiries.
-        </p>
+        <p className="text-xl text-gray-700">Reach out to us for inquiries.</p>
       </div>
       <div className="flex flex-wrap justify-center items-center">
         {teamContacts.map((member, index) => (
@@ -46,7 +44,9 @@ const ContactUs = () => {
           >
             <div className="px-6 py-4">
               <div className="font-bold text-xl">{member.name}</div>
-              <p className="text-gray-800 text-base border-b-2 border-b-tertiary">{member.role}</p>
+              <p className="text-gray-800 text-base border-b-2 border-b-tertiary">
+                {member.role}
+              </p>
               <div className="text-sm text-gray-600 mt-2 mb-1 underline">
                 Email:
               </div>
