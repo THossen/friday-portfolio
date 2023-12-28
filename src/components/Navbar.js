@@ -6,7 +6,7 @@ const Navbar = () => {
   const location = useLocation();
 
   const isActive = (path) => location.pathname === path;
-  const logoColorClass = isActive("/") ? "text-tertiary" : "text-white hover:text-tertiary";
+  const logoColorClass = isActive("/") ? "text-main" : "text-main";
 
   return (
     <nav className="bg-secondary shadow-lg">
